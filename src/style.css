@@ -6,7 +6,7 @@
   margin-left: 500px;
   border: 1px solid #964b0078;
   border-radius: 25px;
-  padding: 10px 10px 10px 10px;
+  padding: 10px; /* Simplified padding shorthand */
   width: 200px;
   font-size: 16px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -15,7 +15,7 @@
   background-color: #964b0078;
   border-radius: 25px;
   border-color: #964b0078;
-  box-shadow: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Fixed box-shadow value */
   width: 100px;
   padding: 10px 5px 10px 5px;
   color: white;
@@ -41,15 +41,13 @@ header {
   max-width: 300px;
   border-radius: 8px;
   background-color: #cc8d2659;
-  font-family: Arial, sans-serif;
   text-align: center;
+  display: none;
 }
 .img {
   display: block;
   width: 250px;
-  margin-left: 540px;
-  margin-bottom: 40px;
-  margin-top: 40px;
+  margin: 40px auto; /* Centered image horizontally */
   height: auto;
 }
 footer {
