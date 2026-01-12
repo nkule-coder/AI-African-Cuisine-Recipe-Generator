@@ -6,43 +6,69 @@
     <link rel="stylesheet" href="src/style.css" />
     <title>My African Recipe Project</title>
   </head>
-  <header>
-    Siyapheka, Cooking your favorite African dishes with 
-    <span class="name">Nkule</span>
-    <hr class="line"/>
-  </header> 
-  <img src="src/image.jpg" alt="Pumkin soup" class="img"/>
-  <main>
-   <form>
-    <input
-    type="text"
-    class="input"
-    placeholder="enter an African dish"
-    autofocus
-    required
-    autocomplete="off"/>
-    <input type="submit" value="Get Recipe" class="submit"/>
-   </form>
+
   <body>
-    <div class="recipe">
-      Boil 2 cups of water with a pinch of salt, then slowly stir in 1 cup maize meal until smooth. Reduce heat and cook, stirring, until thick and cooked through. In a separate pan, heat 1 tablespoon oil, fry 1 chopped onion until soft, add 1 chopped tomato and salt to taste, and cook for 3–5 minutes. Serve the pap topped with the tomato chakalaka.
-    </div>
+    <header>
+      Siyapheka, cooking your favorite African dishes with
+      <span class="name">Nkule</span>
+      <hr class="line" />
+    </header>
+
+    <img
+      src="src/image.jpg"
+      alt="A bowl of pumpkin soup garnished with herbs"
+      class="img"
+    />
+
+    <main>
+      <form>
+        <input
+          type="text"
+          class="input"
+          placeholder="Enter an African dish"
+          aria-label="Dish name input field"
+          autofocus
+          required
+          autocomplete="off"
+        />
+        <input
+          type="submit"
+          value="Get Recipe"
+          class="submit"
+          aria-label="Submit button to get the recipe"
+        />
+      </form>
+
+      <div id="recipe" class="recipe">
+        Boil 2 cups of water with a pinch of salt, then slowly stir in 1 cup
+        maize meal until smooth. Reduce heat and cook, stirring, until thick and
+        cooked through. In a separate pan, heat 1 tablespoon oil, fry 1 chopped
+        onion until soft, add 1 chopped tomato and salt to taste, and cook for
+        3–5 minutes. Serve the pap topped with the tomato chakalaka.
+      </div>
+    </main>
+
+    <footer>
+      This AI project was coded by
+      <a href="https://github.com/nkule-coder" target="_blank">
+        Nonkululeko Msomi
+      </a>
+      and is open-sourced on
+      <a
+        href="https://github.com/nkule-coder/AI-African-Cuisine-Recipe-Generator"
+        target="_blank"
+      >
+        GitHub
+      </a>
+      and is hosted on
+      <a
+        href="https://my-ai-african-cuisine-recipes.netlify.app"
+        target="_blank"
+      >
+        Netlify
+      </a>
+    </footer>
+
     <script src="src/index.js"></script>
   </body>
-  <footer>
-    This AI project was coded by
-    <a href="https://github.com/nkule-coder" target="_blank"
-      >Nonkululeko Msomi</a
-    >
-    and is open-sourced on
-    <a
-      href="https://github.com/nkule-coder/AI-African-Cuisine-Recipe-Generator"
-      target="_blank"
-      >GitHub</a
-    >
-    and is hosted on
-    <a href="my-ai-african-cuisine-recipes.netlify.app" target="_blank"
-      >Netlify</a
-    >
-  </footer>
 </html>
